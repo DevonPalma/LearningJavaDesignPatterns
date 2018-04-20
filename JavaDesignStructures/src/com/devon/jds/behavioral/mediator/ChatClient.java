@@ -1,0 +1,18 @@
+package com.devon.jds.behavioral.mediator;
+
+public class ChatClient {
+	public static void main(String[] args) {
+		ChatMediator mediator = new ChatMediatorImpl();
+		User user1 = new UserImpl(mediator, "Devon");
+		User user2 = new UserImpl(mediator, "Jill");
+		User user3 = new UserImpl(mediator, "Brian");
+		User user4 = new UserImpl(mediator, "Kevin");
+		
+		mediator.addUser(user1);
+		mediator.addUser(user2);
+		mediator.addUser(user3);
+		mediator.addUser(user4);
+		
+		user1.send("Test");
+	}
+}

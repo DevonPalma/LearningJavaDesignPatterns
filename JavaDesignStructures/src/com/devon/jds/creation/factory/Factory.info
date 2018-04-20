@@ -1,0 +1,7 @@
+The factory is a pattern which is like saying hey
+I really want to make cakes, like loads of them,
+so I feed a factory a very basic set of info, or
+as i put it a template for the cakes i want, this
+might include the frosting, the flavor, etc.
+then i call the factory and say hey can i have a cake
+please and it returns me a new cake.

@@ -1,0 +1,6 @@
+The Builder is like a factory more or less but sometimes when you have an object
+it will require a load of variables inside of it like lets say a computer for example
+what kind of screen, what screen resolution, should there be a camera, whats the storage,
+and so on, there can be hundreds of variables really, so the builder compensates for this 
+by being having loads of set functions, while only having the absolute necessary stuff in 
+the constructor.

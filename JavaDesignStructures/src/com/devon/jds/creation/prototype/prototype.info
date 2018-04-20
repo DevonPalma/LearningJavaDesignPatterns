@@ -1,0 +1,5 @@
+Alright so this one I doubt I will use that much for a while at least.
+but basically this one is like hey give me a prototype and ill give you another
+copy of it. this is mainly used for when you have a massive object, and you are 
+storing it on a data base or something. you can pull that object then feed it into
+a cloner/copier and it copies all the data in it and returns a replica of it. 

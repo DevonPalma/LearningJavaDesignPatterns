@@ -1,0 +1,8 @@
+this is used to connect 2+ objects/classes/interfaces/whatever to each other.
+
+two types of adapter
+
+class - uses inheritance, extends source interface
+object - uses composition, main object contains source object
+
+in this case - uses the socketadapter to connect socket and volt classes

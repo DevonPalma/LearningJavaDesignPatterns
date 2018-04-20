@@ -1,0 +1,4 @@
+So sometimes in a java project you only ever need one instance of
+an object. you never want more than just that one, so you make
+a singleton, this is basically a safe way to say hey i only ever
+need one object.
