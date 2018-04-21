@@ -52,4 +52,11 @@ public class MyTopic implements Subject {
 		return this.message;
 	}
 
+	public void postMessage(String msg) {
+		System.out.println("Message posted to topic: " + msg);
+		this.message = msg;
+		this.changed = true;
+		notifyObservers();
+	}
+	
 }
